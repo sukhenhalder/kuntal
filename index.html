@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        *{
+             /* background-color: rgb(255, 134, 134); */
+        }
+        .r{
+            padding-left: 650px;
+            color:black;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: red;
+            background-color: aqua;
+            
+        }
+        .v{
+            padding-left: 650px;
+            color: black;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: red;
+            background-color: rgb(40, 161, 161);
+        }
+        .h{
+            padding-left: 650px;
+            color: black;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: red;
+            background-color: rgb(40, 161, 161);
+        }
+        .t{
+            
+            padding-left: 650px;
+            color: black;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: red;
+            background-color: rgb(40, 161, 161);
+        
+        }
+        .k{
+            padding-left: 650px;
+            color: black;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: red;
+            background-color: rgb(40, 161, 161);
+        }
+        .o{
+            padding-left: 650px;
+            color: black;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: red;
+            background-color: rgb(40, 161, 161);
+        }
+        .m{
+            padding-left: 650px;
+            color: black;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: red;
+            background-color: rgb(40, 161, 161);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="r">
+        <h1><u>Kuntal Stock Marketing-faund Bank</u></h1>
+    </div>
+    <hr>
+    <div class="v">
+        <form action="/" method="post">
+
+            <datalist id="usernames">
+                <option value="Siv"></option>
+                <option value="Kuntal"></option>
+                <option value="Raju"></option>
+            </datalist>
+            <label for="password"> <b>Username:</b> </label>
+            <input type="text" id="username" name="username" size="30" autofocus="off" required list="usernames" />
+            <br>
+            <br>
+            <label for=" Password"><b>Password</b></label>
+            <input type="password" id="password" name="password" required />
+
+            <br>
+            <br>
+
+            <label for="Confirm password"> <b>Confirm Password:</b> </label>
+            <input type="password" id="password" name="password" required />
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="h">
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" autocomplete />
+        <br>
+        <br>
+
+        <label for="phone"><b>phone: </b></label>
+        <input type="tel" id="phone" name="phone" />
+
+        <br>
+        <br>
+
+        <label for="dob"><b>Date of birth: </b></label>
+        <input type="date" id="dob" name="dob" />
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="t">
+        <label for="Atm Card"><b>ATM Card Number</b></label>
+        <input type="text" id="number" name="ATM">
+        <br>
+        <br>
+        <label for="CVV"><b>CVV</b></label>
+        <input type="text" id="number" name="ATM">
+        <br>
+        <br>
+        <label for="month"><b>Expairy Month</b> </label>
+        <input type="month" id="month" name="month" />
+        <br>
+        <br>
+        <label for="text"><b>Bank Account Details:-</b></b> </label>
+        <input type="text" id="month" name="month" />
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="k">
+        <p><b>Faund Scames</b></p>
+        <ol type="1">
+            <li>money Double in 2 days</li>
+            <li>Money Double in 1 days</li>
+            <li>Money Double in 1 hour</li>
+        </ol>
+        <label for="random"> <b> Select Which Scame You Want: </b></label>
+        <input type="number" id="random" name="random" min="1" max="3" value="0" />
+        <br>
+        <br>
+        <input type="checkbox" id="other" />
+        <label for="other">Agree With your Details</label>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="o">
+        <label for="profile"> <b>Select your image:</b></label>
+        <input type="image" id="profile" name="profile" />
+
+        <br>
+        <br>
+
+        <label for="file"><b>Select aadhhar card: </b></label>
+        <input type="file" id="file" name="file" />
+
+        <br>
+
+        <br>
+        <label for="color"><b>Select Your Passbook Color: </b></label>
+        <input type="color" id="color" name="color" />
+
+        <br>
+        <br>
+        <label for="website"><b>Paste your website's url: </b></label>
+        <input type="url" id="website" name="website" />
+
+        <!-- checkbox disable-->
+        <br />
+
+        <p><b>Religion:</b></p>
+
+        <input type="checkbox" id="muslim"  /><label for="muslim">muslim</label>
+
+
+        <input type="checkbox" id="hindu" />
+        <label for="hindu">hindu</label>
+
+
+        <input type="checkbox" id="other" />
+        <label for="other">other</label>
+
+
+        <!-- radiobutton -->
+        <br />
+
+        <p><b>Gender:</b></p>
+
+        <input type="radio" id="male" name="gender" />
+        <label for="male">male</label>
+
+
+        <input type="radio" id="female" name="gender" />
+        <label for="female">female</label>
+
+
+        <input type="radio" id="other" name="gender" />
+        <label for="other">other</label>
+
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div class="m">
+        <!-- dropdown menu -->
+        <label for="department"> <b>Faund Passbook Type:</b></label>
+        <select name="Passbook" id="department">
+            <option value="Select">Select</option>
+            <option value="cse">30 page passbook</option>
+            <option value="eee">65 page passbook</option>
+            <option value="llb">100 page passbook</option>
+        </select>
+
+        <!-- texture -->
+        <br>
+        <br>
+        <label for="message"><b>Feedback For Developer: </b></label> <br>
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+
+        <!-- button -->
+        <br>
+
+        <button type="submit"><b>Submit Form</b></button>
+        <button type="reset"><b>Clear</b></button>
+    </div>
+    </form>
+</body>
+
+</html>
